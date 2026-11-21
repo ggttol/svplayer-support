@@ -11,7 +11,7 @@ SVPlayer (iPhone, iPad, Mac and Apple TV) uses the following open-source compone
 | zimg | WTFPL | [sekrit-twc/zimg](https://github.com/sekrit-twc/zimg) | 随 FFmpegBuild 提供。Bundled with FFmpegBuild. |
 | zvbi | LGPL-2.1-or-later | [zapping-vbi/zvbi](https://github.com/zapping-vbi/zvbi) | 随 FFmpegBuild 提供。Bundled with FFmpegBuild. |
 | LibDovi | MIT | [superuser404notfound/LibDovi](https://github.com/superuser404notfound/LibDovi) | 杜比视界元数据解析。Dolby Vision metadata parsing. |
-| SMBClient | MIT | [kishikawakatsumi/SMBClient](https://github.com/kishikawakatsumi/SMBClient) | SMB 浏览、播放与下载（Build 34 起替代 libsmb2）。SMB browsing, playback and downloads (replaces libsmb2 from Build 34). |
+| SMBClient 0.3.1 | MIT | [kishikawakatsumi/SMBClient](https://github.com/kishikawakatsumi/SMBClient) | SMB 浏览、播放与下载（Build 34 起替代 libsmb2）。Build 35 起为 SVPlayer 修改版（报文解析健壮性、Guest/匿名登录），修改处在源码中标注。<br>SMB browsing, playback and downloads (replaces libsmb2 from Build 34). Modified by SVPlayer from Build 35 (frame parsing robustness, guest/anonymous sign-in); changes are marked in the source. |
 
 ## 关于 LGPL / About the LGPL
 
@@ -28,4 +28,4 @@ SVPlayer (iPhone, iPad, Mac and Apple TV) uses the following open-source compone
 专利相关功能（TrueHD / DTS:X 对象音频、杜比视界双层与 FEL 曲线、静帧重整形）在 SVPlayer 中保持关闭。
 Patent-sensitive features (TrueHD / DTS:X object audio, dual-layer Dolby Vision, FEL curves and still reshaping) are disabled in SVPlayer.
 
-_最后更新 Last updated: 2026-11-21（Build 34）_
+_最后更新 Last updated: 2026-11-21（Build 35）_
